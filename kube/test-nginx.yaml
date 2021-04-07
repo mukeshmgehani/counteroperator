@@ -1,0 +1,7 @@
+apiVersion: "mukesh.operator/v1"
+kind: nginx
+metadata:
+  name: nginx-custom-service
+spec:
+  name: nginx-custom-service
+  label: i-did-this
